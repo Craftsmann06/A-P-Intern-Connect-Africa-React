@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
-import BlogPostCard2 from '../components/blog-post-card2'
 import './news.css'
 
 const News = (props) => {
@@ -124,7 +123,7 @@ const News = (props) => {
               <br></br>
             </Link>
             <Link to="/contact-us" className="news-navlink07">
-              <span>Conttact Us</span>
+              <span>Contact Us</span>
               <br></br>
             </Link>
           </nav>
@@ -248,30 +247,107 @@ const News = (props) => {
           className="news-image1"
         />
       </div>
-      <div className="news-blog">
+      <div className="news-banner1">
         <div className="news-container3">
-          <BlogPostCard2
-            image_src="https://classroom.umcghana.org/wp-content/uploads/2022/12/int1-scaled.jpg"
-            profile_src="https://classroom.umcghana.org/wp-content/uploads/2022/08/cropped-AP-logo-BLACK.jpg"
-            rootClassName="rootClassName3"
-          ></BlogPostCard2>
-          <BlogPostCard2
-            profile_src="https://classroom.umcghana.org/wp-content/uploads/2022/12/int3-scaled.jpg"
-            rootClassName="rootClassName3"
-          ></BlogPostCard2>
+          <h1 className="news-text29">
+            <span>News &amp; Events</span>
+            <br></br>
+          </h1>
+          <div className="news-container4"></div>
+          <img
+            alt="image"
+            src="https://classroom.umcghana.org/wp-content/uploads/2022/12/int17-scaled.jpg"
+            className="news-image2"
+          />
+          <div className="news-gallery-card">
+            <h2 className="news-text32">Facilitators Training</h2>
+            <a
+              href="https://classroom.umcghana.org/news/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="news-link2"
+            >
+              Learn More
+            </a>
+          </div>
+          <img
+            alt="image"
+            src="https://classroom.umcghana.org/wp-content/uploads/2022/12/Photo33.jpg"
+            className="news-image3"
+          />
+          <div className="news-gallery-card1">
+            <h2 className="news-text33">Registration For Training</h2>
+            <a
+              href="https://classroom.umcghana.org/news/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="news-link3"
+            >
+              Learn More
+            </a>
+          </div>
+          <img
+            alt="image"
+            src="https://classroom.umcghana.org/wp-content/uploads/2022/12/int6-scaled.jpg"
+            className="news-image4"
+          />
+          <div className="news-gallery-card2">
+            <h2 className="news-text34">
+              <span>
+                Organised  Recruitment / Training Activities &amp; Personal
+                Coaching Sessions
+              </span>
+              <br></br>
+            </h2>
+            <a
+              href="https://classroom.umcghana.org/news/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="news-link4"
+            >
+              Learn More
+            </a>
+          </div>
+          <img
+            alt="image"
+            src="https://classroom.umcghana.org/wp-content/uploads/2022/12/team-2.jpg"
+            className="news-image5"
+          />
+          <div className="news-gallery-card3">
+            <h2 className="news-text37">
+              <span>Partner Events</span>
+              <br></br>
+            </h2>
+            <a
+              href="https://classroom.umcghana.org/news/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="news-link5"
+            >
+              Learn More
+            </a>
+          </div>
+          <img
+            alt="image"
+            src="https://classroom.umcghana.org/wp-content/uploads/2022/12/post2.jpg"
+            className="news-image6"
+          />
+          <div className="news-gallery-card4">
+            <h2 className="news-text40">
+              <span>Campus Visits</span>
+              <br></br>
+            </h2>
+          </div>
+          <div className="news-gallery-card5"></div>
+          <a
+            href="https://classroom.umcghana.org/news/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="news-link6"
+          >
+            Learn More
+          </a>
         </div>
-        <div className="news-container4">
-          <BlogPostCard2
-            image_src="https://images.unsplash.com/photo-1595565312451-23051ab0666c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1000"
-            profile_src="https://classroom.umcghana.org/wp-content/uploads/2022/12/Photo33.jpg"
-            rootClassName="rootClassName"
-          ></BlogPostCard2>
-        </div>
-        <BlogPostCard2
-          image_src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIxfHxwb3J0cmFpdCUyMHdvbWFuJTIwY29sb3J8ZW58MHx8fHwxNjI2NDUwNTU4&amp;ixlib=rb-1.2.1&amp;h=1000"
-          profile_src="https://classroom.umcghana.org/wp-content/uploads/2022/12/int4-scaled.jpg"
-          rootClassName="rootClassName2"
-        ></BlogPostCard2>
       </div>
     </div>
   )

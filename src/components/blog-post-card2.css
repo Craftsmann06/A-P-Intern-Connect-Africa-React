@@ -81,9 +81,6 @@
   font-weight: 500;
 }
 
-
-
-
 @media(max-width: 991px) {
   .blog-post-card2-blog-post-card {
     flex-direction: row;
