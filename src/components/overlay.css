@@ -1,0 +1,47 @@
+.overlay-overlay {
+  flex: 1;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: space-between;
+  background-image: url("/playground_assets/planbackground.svg");
+}
+.overlay-header {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media(max-width: 991px) {
+  .overlay-overlay {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .overlay-header {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 767px) {
+  .overlay-overlay {
+    align-items: center;
+    background-size: contain;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+  .overlay-root-class-name {
+    background-image: url('https://internconnectafrica.com/img/work.jpg');
+  }
+}
+@media(max-width: 479px) {
+  .overlay-root-class-name {
+    background-image: url('https://internconnectafrica.com/img/work.jpg');
+  }
+}

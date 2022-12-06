@@ -1,0 +1,13 @@
+.highlight-highlight {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.highlight-text {
+  max-width: 535px;
+  font-family: Poppins;
+  line-height: 24px;
+}
